@@ -45,8 +45,8 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "@azure/core-http": "^1.2.6",
-    "@azure/digital-twins-core": "^1.0.3",
+    "@azure/core-http": "^3.0.4",
+    "@azure/digital-twins-core": "^1.1.0",
     "@azure/identity": "^1.4.0",
     "@types/glob": "^7.1.4",
     "@types/yargs": "^17.0.2",
