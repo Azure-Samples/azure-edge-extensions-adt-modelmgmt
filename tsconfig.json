@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "noImplicitUseStrict": true,
+        "target": "es2020",
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "mocha",
+            "chai",
+            "node"
+        ]
+    },
+    "include": [
+        "src",
+        "test"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/__tests__/*"
+    ]
+}
