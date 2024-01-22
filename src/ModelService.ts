@@ -83,12 +83,11 @@ export default class ModelService {
     }
   }
 
-  public async uploadModelDir({
+  public async uploadModelDir(
     modelDirectoryPath = '',
     batchSize = this.BATCH_SIZE,
     batchDelay = this.BATCH_DELAY,
     clobber = false
-  } = {}
   ): Promise<DigitalTwinModelsAddResponse> {
     if (!fs.existsSync(modelDirectoryPath)) {
       console.log('Error: modelDirectoryPath must be a directory');

@@ -33,8 +33,8 @@ export const handler = handleError(async (argv: unknown): Promise<void> => {
   const modelService = new ModelService(argv['adt-host-name']);
   const modelDirPath = path.resolve(argv['model-path']);
   const clobber = argv['clobber'];
-  await modelService.uploadModelDir({
-    modelDirectoryPath:modelDirPath,
-    clobber:clobber
-  });
+  await modelService.uploadModelDir(
+    modelDirPath,
+    clobber
+  );
 });
