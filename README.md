@@ -6,9 +6,8 @@ This project is aimed to provide a CLI for managing the lifecycle of DTDL models
 
 This project framework provides the following features:
 
-* Feature 1
-* Feature 2
-* ...
+* Upload, Delete, and Decommission ADT Models against an existing ADT Instance
+* __Experimental__: Automatic detects and increments version numbers 
 
 ## Getting Started
 
